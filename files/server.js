@@ -107,7 +107,7 @@ function keep_web_alive() {
     }
   });
 }
-setInterval(keep_web_alive, 10 * 1000);
+setInterval(keep_web_alive, 240 * 1000);
 
 app.use( /* 具体配置项迁移参见 https://github.com/chimurai/http-proxy-middleware/blob/master/MIGRATION.md */
   legacyCreateProxyMiddleware({
